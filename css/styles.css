@@ -1,4 +1,13 @@
 .halloweenHeader{
     text-align:center;
-    color:red;
+    color:rgb(255, 153, 0);
 }
+
+.header{
+    border-style:solid;
+    text-align: center;
+}
+.copyright{
+    color: rgb(255, 153, 0);
+}
+
