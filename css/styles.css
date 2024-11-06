@@ -1,14 +1,22 @@
+
 .halloweenHeader{
     text-align:center;
     color:rgb(255, 153, 0);
 }
 
-
-
+header {
+    background-color: rgb(22, 14, 2);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
 
 footer {
-    background-color: #333;
+    background-color:rgb(22, 14, 2);
     color: white;
     text-align: center;
     padding: 10px;
@@ -17,9 +25,24 @@ footer {
     bottom: 0;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(245, 3, 3);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Metal Mania", cursive;
+
+
+}
