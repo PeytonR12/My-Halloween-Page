@@ -46,3 +46,20 @@ nav ul li a {
 
 
 }
+
+
+.menu {
+    display: flex;               /* Enable Flexbox layout */
+    justify-content: center;     /* Center items horizontally */
+    align-items: center;         /* Align items vertically (optional) */
+    gap: 20px;                   /* Space between the items */
+}
+
+/* Optional: Center text in each <h4> */
+.menu h4 {
+    margin: 0;                   /* Remove default margin for cleaner layout */
+    text-align: center;          /* Ensure text inside <h4> is centered */
+}
+
+
+
